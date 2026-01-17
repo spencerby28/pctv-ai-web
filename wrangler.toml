@@ -2,5 +2,9 @@ name = "pctv-ai-worker"
 main = "src/index.ts"
 compatibility_date = "2024-01-01"
 
+[[routes]]
+pattern = "pctv.ai"
+custom_domain = true
+
 [assets]
 directory = "./public"
